@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="699" height="699" viewBox="0 0 699 699" fill="none">
+  <title>CPIL research lab icon</title>
+  <desc>A grey human profile with a blue cloud, four connected nodes, and four circuit terminals. Hand-drawn vector geometry on a transparent background.</desc>
+  <!-- The profile's curved right contour preserves the transparent clearance
+       around the cloud and the two left-hand circuit terminals. -->
+  <path fill="#50545a" d="M210 122
+    C127 128 74 187 61 253
+    C57 267 55 283 59 297
+    C67 318 47 343 30 367
+    L17 386 C8 400 16 407 33 413
+    C47 417 51 421 47 434
+    C43 447 43 455 58 458
+    C49 465 51 475 59 481
+    C69 491 60 506 60 521
+    C59 549 74 556 110 554
+    L141 554 C163 554 168 565 170 589
+    L175 648 H364
+    C353 623 350 599 347 574
+    L275 501 H245
+    C229 519 205 518 189 504
+    C171 489 169 466 184 445
+    C162 445 145 428 145 405
+    C145 384 160 367 185 364
+    C158 342 141 320 141 294
+    C141 271 151 253 175 232
+    C178 192 190 153 210 122 Z"/>
+  <g stroke="#1f6ca3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Cloud outline; its lower return becomes a circuit trace. -->
+    <path stroke-width="38" stroke-linecap="butt" d="M210 246 C210 148 281 69 371 69
+      C448 69 513 127 529 203
+      C605 200 667 260 667 334
+      C667 407 606 465 532 465 H451"/>
+    <circle cx="210" cy="246" r="19" fill="#1f6ca3" stroke="none"/>
+    <path fill="#1f6ca3" stroke="none" d="M451 446
+      C446 446 443 448 439 452 L393 497 H320 V515 H400
+      L435 482 L451 484 Z"/>
+    <!-- Left return and the pair of lower circuit branches. -->
+    <path stroke-width="19" d="M204 249
+      C181 265 168 278 170 296
+      C171 310 185 325 201 335 H250
+      C266 335 278 347 278 363 V378
+      C278 393 267 405 251 405 H186"/>
+    <path stroke-width="19" d="M215 473 H286 L422 609 H528 M357 544 H472"/>
+    <!-- Four-node network. -->
+    <path stroke-width="20" d="M289 280 L417 170 M412 174 L474 335 L371 435 L289 280 M289 277 L474 340"/>
+    <g fill="#1f6ca3" stroke="none">
+      <circle cx="289" cy="274" r="38.5"/>
+      <circle cx="417" cy="174" r="37.5"/>
+      <circle cx="474" cy="335" r="38.5"/>
+      <circle cx="371" cy="431" r="38.5"/>
+      <circle cx="186" cy="405" r="23.5"/>
+      <circle cx="215" cy="473" r="24"/>
+    </g>
+    <!-- Ring terminals retain transparent centers. -->
+    <circle cx="490" cy="544" r="17.5" stroke-width="17"/>
+    <circle cx="546" cy="609" r="17.5" stroke-width="17"/>
+  </g>
+</svg>
