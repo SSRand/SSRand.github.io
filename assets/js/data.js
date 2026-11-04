@@ -23,7 +23,6 @@ window.NEWS = [
 // type:     "conference" | "preprint" | "journal" | "workshop"
 // selected: true → shown under "Academic Research" on the About page
 // group:    "industry" → shown under "Industry Research" on the About page
-//           (with optional org: "Company · Team" and highlight: one-line impact)
 // equal:    list of author names with equal contribution (gets a *)
 // links:    { arxiv, pdf, code, project, bib } — any subset
 window.PUBLICATIONS = [
@@ -53,9 +52,8 @@ window.PUBLICATIONS = [
     authors: ["Guo Tang", "Hanye Wu", "Changjiang Han", "Qingyang Li", "Ming Zhang", "Xiangyu Qian", "Yanchen Qiao", "Huanjie Wang", "Zhi Ma", "Zhen Li", "Yaqiang Zang", "Pinghua Gong"],
     equal: ["Guo Tang", "Hanye Wu", "Changjiang Han"],
     venue: "arXiv", type: "preprint", year: 2026,
-    group: "industry", org: "JD.com · Generative Recommendation",
-    highlight: "Co-first author on the core algorithm of OxygenREC, JD.com's production generative recommender, deployed online across core e-commerce scenarios.",
-    tldr: "Internalizes discriminative behavior signals (clicks, carts, orders) into a generative recommender that decodes semantic-ID sequences.",
+    group: "industry",
+    tldr: "Internalizes discriminative behavior signals (clicks, carts, orders) into a generative recommender that decodes semantic-ID sequences. Deployed in production on JD.com, which serves over 700 million annual active customers.",
     links: { arxiv: "https://arxiv.org/abs/2607.24255" },
   },
   {

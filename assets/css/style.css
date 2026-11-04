@@ -209,13 +209,6 @@ p { margin: 0 0 0.9rem; }
   letter-spacing: 0.08em; color: var(--text-muted); margin: 1.1rem 0 0.2rem;
 }
 .pub-group i { color: var(--accent); margin-right: 4px; }
-#industry-pubs .pub {
-  background: var(--accent-soft); border: 1px solid var(--border); border-radius: 10px;
-  padding: 14px 16px; margin-top: 6px;
-}
-.pub-org { font-size: 0.78rem; font-weight: 600; color: var(--accent); letter-spacing: 0.02em; margin-bottom: 2px; }
-.pub-highlight { font-size: 0.9rem; margin-top: 6px; color: var(--text); font-weight: 500; }
-.pub-highlight i { color: var(--accent); margin-right: 4px; font-size: 0.85em; }
 
 .pub-toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 0.8rem; }
 .filters { display: flex; flex-wrap: wrap; gap: 6px; }
