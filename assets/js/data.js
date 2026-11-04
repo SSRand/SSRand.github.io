@@ -9,6 +9,7 @@ window.SELF_NAME = "Changjiang Han";
 // date: "YYYY-MM" or "YYYY-MM-DD"; text may contain HTML.
 // TODO: acceptance months below are estimates — please verify.
 window.NEWS = [
+  { date: "2026-10", text: "Released <b>From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory</b> (first author) on arXiv." },
   { date: "2026-10", text: "Our paper on <b>data scaling laws for agentic RL</b> is accepted to <b>NeurIPS 2026</b>." },
   { date: "2026-08", text: "<b>QUACK</b> is accepted to <b>EMNLP 2026</b>." },
   { date: "2026-07", text: "Released <b>Restoring Collaborative Signals in Semantic-ID Generative Recommendation</b> (first author) and <b>OxygenREC-v2</b> on arXiv." },
@@ -26,6 +27,13 @@ window.NEWS = [
 // equal:    list of author names with equal contribution (gets a *)
 // links:    { arxiv, pdf, code, project, bib } — any subset
 window.PUBLICATIONS = [
+  {
+    title: "From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory",
+    authors: ["Changjiang Han", "Bowei He", "Ye Yuan", "Weixu Zhang", "Haolun Wu", "Xue Liu", "Jikun Kang"],
+    venue: "arXiv", type: "preprint", year: 2026, selected: true,
+    tldr: "ResMem distills retrieved knowledge into a parametric memory that learns an additive logit residual toward a retrieval-reading teacher, so the LLM no longer needs online retrieval.",
+    links: { arxiv: "https://arxiv.org/abs/2611.00450" },
+  },
   {
     title: "How Data Scales in Agentic Reinforcement Learning: Laws and Synthesis Strategies",
     authors: ["Bowei He", "Yankai Chen", "Xiaokun Zhang", "Changjiang Han", "Ye Yuan", "Chong Li", "Xue Liu"],
