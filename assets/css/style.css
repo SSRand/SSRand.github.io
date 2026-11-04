@@ -166,7 +166,7 @@ p { margin: 0 0 0.9rem; }
 /* ============================================================
    News
    ============================================================ */
-.news { list-style: none; padding: 0; margin: 0; max-height: 260px; overflow-y: auto; }
+.news { list-style: none; padding: 0; margin: 0; }
 .news li { display: grid; grid-template-columns: 82px 1fr; gap: 12px; padding: 5px 0; font-size: 0.95rem; }
 .news .date { color: var(--text-muted); font-variant-numeric: tabular-nums; font-size: 0.88rem; padding-top: 1px; }
 
