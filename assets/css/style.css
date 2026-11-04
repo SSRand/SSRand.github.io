@@ -224,10 +224,9 @@ p { margin: 0 0 0.9rem; }
    Experience
    ============================================================ */
 .entry { margin-bottom: 1.1rem; }
-.entry-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.entry-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.entry-head .date { flex-shrink: 0; }
 .entry-sub { color: var(--text-muted); font-size: 0.92rem; }
-.entry ul { margin: 0.3rem 0 0; padding-left: 1.2rem; font-size: 0.94rem; }
-.entry li { margin: 2px 0; }
 .date { color: var(--text-muted); font-size: 0.88rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .awards { list-style: none; padding: 0; margin: 0; }
 .awards li { display: grid; grid-template-columns: 72px 1fr; gap: 12px; padding: 3px 0; font-size: 0.95rem; }
