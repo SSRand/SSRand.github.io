@@ -103,7 +103,7 @@
   });
 
   // ---------- Tabs (hash routing) ----------
-  const TABS = ["about", "publications", "experience", "cv"];
+  const TABS = ["about", "publications", "experience"];
   const navLinks = document.querySelector(".nav-links");
   const navToggle = document.querySelector(".nav-toggle");
 
@@ -113,7 +113,6 @@
     let target = null;
     if (hash.startsWith("pub-")) { tab = "publications"; target = hash; }
     document.querySelectorAll(".tab").forEach((s) => s.classList.toggle("active", s.dataset.tab === tab));
-    if (tab === "cv") loadCV();
     document.querySelectorAll(".nav-links a[data-tab]").forEach((a) => a.classList.toggle("active", a.dataset.tab === tab));
     navLinks.classList.remove("open");
     navToggle.setAttribute("aria-expanded", "false");
@@ -123,23 +122,6 @@
     } else {
       window.scrollTo({ top: 0 });
     }
-  }
-  // ---------- CV (PDF) ----------
-  // version.txt changes whenever the CV is rebuilt; fetching it uncached keeps the PDF link fresh.
-  const CV_URL = "assets/cv/Changjiang_Han_CV.pdf";
-  const cvFrame = document.querySelector(".cv-frame");
-  let cvLoaded = false;
-  function loadCV() {
-    if (cvLoaded) return;
-    cvLoaded = true;
-    fetch("assets/cv/version.txt", { cache: "no-store" })
-      .then((r) => (r.ok ? r.text() : ""))
-      .catch(() => "")
-      .then((v) => {
-        const url = v.trim() ? `${CV_URL}?v=${v.trim()}` : CV_URL;
-        cvFrame.src = url;
-        document.querySelector(".cv-link").href = url;
-      });
   }
 
   window.addEventListener("hashchange", route);
