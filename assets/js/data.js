@@ -9,7 +9,7 @@ window.SELF_NAME = "Changjiang Han";
 // date: "YYYY-MM" or "YYYY-MM-DD"; text may contain HTML.
 // TODO: acceptance months below are estimates — please verify.
 window.NEWS = [
-  { date: "2026-11", text: "Joined <b>AMD</b> (Open Source &amp; AI) as a research intern, working on <a href=\"https://github.com/vllm-project/semantic-router\" target=\"_blank\" rel=\"noopener\">vLLM Semantic Router</a>." },
+  { date: "2026-11", text: "Joined <b>AMD</b> (Open Source &amp; AI) as a research intern, working on <a href=\"https://github.com/vllm-project/semantic-router\" target=\"_blank\" rel=\"noopener\">vLLM Semantic Router</a> and its <a href=\"https://huggingface.co/vllm-sr\" target=\"_blank\" rel=\"noopener\">Decision</a> model family." },
   { date: "2026-10", text: "Released <b>From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory</b> (first author) on arXiv." },
   { date: "2026-10", text: "Our paper on <b>data scaling laws for agentic RL</b> is accepted to <b>NeurIPS 2026</b>." },
   { date: "2026-08", text: "<b>QUACK</b> is accepted to <b>EMNLP 2026</b>." },
