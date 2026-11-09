@@ -9,11 +9,13 @@ window.SELF_NAME = "Changjiang Han";
 // date: "YYYY-MM" or "YYYY-MM-DD"; text may contain HTML.
 // TODO: acceptance months below are estimates — please verify.
 window.NEWS = [
+  { date: "2026-11", text: "Joined <b>AMD</b> (Open Source &amp; AI) as a research intern, working on <a href=\"https://github.com/vllm-project/semantic-router\" target=\"_blank\" rel=\"noopener\">vLLM Semantic Router</a>." },
   { date: "2026-10", text: "Released <b>From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory</b> (first author) on arXiv." },
   { date: "2026-10", text: "Our paper on <b>data scaling laws for agentic RL</b> is accepted to <b>NeurIPS 2026</b>." },
   { date: "2026-08", text: "<b>QUACK</b> is accepted to <b>EMNLP 2026</b>." },
   { date: "2026-07", text: "Released <b>Restoring Collaborative Signals in Semantic-ID Generative Recommendation</b> (first author) and <b>OxygenREC-v2</b> on arXiv." },
   { date: "2026-05", text: "<b>Preference Heads in LLMs</b> is accepted to <b>ACL 2026</b>." },
+  { date: "2026-04", text: "Joined <b>JD.com</b> as a research intern in the TGT (Top Young Tech Genius) Program, working on generative recommendation." },
   { date: "2025-09", text: "Started my M.Sc. in Machine Learning at <a href=\"https://mbzuai.ac.ae\">MBZUAI</a>, advised by <a href=\"https://cs.mcgill.ca/~xueliu/site/intro.html\">Prof. Xue (Steve) Liu</a>." },
   { date: "2025-06", text: "Graduated from HUST with the <b>Outstanding Thesis Award</b> (top 3%) and <b>Outstanding Graduate Award</b>." },
 ];
