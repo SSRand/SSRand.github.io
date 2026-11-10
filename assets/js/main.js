@@ -60,8 +60,9 @@
       <li class="pub" id="${idPrefix}-${i}">
         <span class="badge ${p.type}">${esc(p.venue)}</span>
         <div>
-          <div class="pub-title">${esc(p.title)}</div>
+          <div class="pub-title">${L.arxiv ? `<a href="${L.arxiv}" target="_blank" rel="noopener">${esc(p.title)}</a>` : esc(p.title)}</div>
           <div class="pub-authors">${authorsBlock(p)}</div>
+          ${p.review ? `<div class="pub-review">${esc(p.review)}, under review</div>` : ""}
           ${p.tldr ? `<div class="pub-tldr">${esc(p.tldr)}</div>` : ""}
           <div class="pub-links">${links}</div>
           <pre class="bibtex">${esc(L.bib || bibtex(p))}</pre>

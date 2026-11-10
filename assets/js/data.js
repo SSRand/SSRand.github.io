@@ -26,12 +26,13 @@ window.NEWS = [
 // selected: true → shown under "Academic Research" on the About page
 // group:    "industry" → shown under "Industry Research" on the About page
 // equal:    list of author names with equal contribution (gets a *)
+// review:   venue the paper is under review at (shown as "<venue>, under review")
 // links:    { arxiv, pdf, code, project, bib } — any subset
 window.PUBLICATIONS = [
   {
     title: "From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory",
     authors: ["Changjiang Han", "Bowei He", "Ye Yuan", "Weixu Zhang", "Haolun Wu", "Xue Liu", "Jikun Kang"],
-    venue: "arXiv", type: "preprint", year: 2026, selected: true,
+    venue: "arXiv", review: "ICLR 2027", type: "preprint", year: 2026, selected: true,
     tldr: "ResMem distills retrieved knowledge into a parametric memory that learns an additive logit residual toward a retrieval-reading teacher, so the LLM no longer needs online retrieval.",
     links: { arxiv: "https://arxiv.org/abs/2611.00450" },
   },
@@ -45,7 +46,7 @@ window.PUBLICATIONS = [
   {
     title: "Restoring Collaborative Signals in Semantic-ID Generative Recommendation via Personalized Natural Language",
     authors: ["Changjiang Han", "Qingyang Li", "Yaqiang Zang", "Jikun Kang", "Pinghua Gong", "Xue Liu", "Bowei He"],
-    venue: "arXiv", type: "preprint", year: 2026, selected: true,
+    venue: "arXiv", review: "WWW 2027", type: "preprint", year: 2026, selected: true,
     tldr: "Recovers the collaborative signal lost by semantic-ID tokenization by expressing user preferences in personalized natural language, letting LLM recommenders reason explicitly.",
     links: { arxiv: "https://arxiv.org/abs/2607.27682" },
   },
@@ -53,7 +54,7 @@ window.PUBLICATIONS = [
     title: "OxygenREC-v2: Internalizing Discrimination into Generative Recommendation",
     authors: ["Guo Tang", "Hanye Wu", "Changjiang Han", "Qingyang Li", "Ming Zhang", "Xiangyu Qian", "Yanchen Qiao", "Huanjie Wang", "Zhi Ma", "Zhen Li", "Yaqiang Zang", "Pinghua Gong"],
     equal: ["Guo Tang", "Hanye Wu", "Changjiang Han"],
-    venue: "arXiv", type: "preprint", year: 2026,
+    venue: "arXiv", review: "KDD 2027", type: "preprint", year: 2026,
     group: "industry",
     tldr: "Internalizes discriminative behavior signals (clicks, carts, orders) into a generative recommender that decodes semantic-ID sequences. Deployed in production on JD.com, which serves over 700 million annual active customers.",
     links: { arxiv: "https://arxiv.org/abs/2607.24255" },

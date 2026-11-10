@@ -187,6 +187,9 @@ p { margin: 0 0 0.9rem; }
 }
 .badge.preprint, .badge.workshop { background: transparent; color: var(--accent); }
 .pub-title { font-family: var(--font-serif); font-weight: 600; font-size: 1.03rem; line-height: 1.4; }
+.pub-title a { color: inherit; }
+.pub-title a:hover { color: var(--accent); }
+.pub-review { font-size: 0.88rem; font-style: italic; color: var(--text-muted); margin-top: 2px; }
 .pub-authors { font-size: 0.9rem; color: var(--text-muted); margin-top: 3px; }
 .pub-authors .me { color: var(--text); font-weight: 600; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
 .pub-authors .more { color: var(--accent); cursor: pointer; border: 0; background: none; padding: 0; font: inherit; }
